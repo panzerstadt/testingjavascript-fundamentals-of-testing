@@ -1,0 +1,13 @@
+{
+  "name": "tj-playground-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "test-manual": "nodemon lessons/04/assertion-library.js",
+    "test": "npx jest"
+  }
+}
